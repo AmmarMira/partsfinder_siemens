@@ -1,0 +1,64 @@
+.header {
+	width: 100%;
+	height: 200px;
+	.logo{
+		width: 200px;
+		height: 100px;
+		overflow: hidden;
+		margin-top: 30px;
+		float: left;
+		img{
+			width: 100%;
+		}
+	}
+	.newPart{
+		float: right;
+		margin-top: 30px;
+	}
+}
+	.btn-info{
+		background-color: $Success;
+		border-radius: 0 0 6px;
+
+		&:hover{
+			background-color: rgba(8,150,154,.9);
+		}
+	}
+
+		.panel-primary{
+		border-color: $Success;
+		.item{
+			width: 50%;
+			height: 300px;
+			overflow: hidden;
+			float: left;
+			margin: 20px 0;
+			a{
+				text-align: center;
+				font-size: 18px;
+				color: red;
+			}
+			img{
+				height: 90%;
+			}
+		}
+		.puckedupby{
+			width: 25%;
+			float: left;
+		}
+		.labeltext{
+			width: 100%;
+		}
+	}
+		.panel-primary>.panel-heading{
+		background-color: $Success;
+		border-color: $Success;
+	}
+				.inputs-container{
+				margin-top: 30px;
+
+			}
+
+			button.panel-primary{
+				margin-top: 10px;
+			}

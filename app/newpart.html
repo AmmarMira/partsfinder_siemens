@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Part Finder | Siemsns</title>
+
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <!-- Place favicon.ico in the root directory -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+</head>
+<body>
+
+<div class="container">
+        <div class="header">    
+            <div class="logo">
+                <a href="index.html"><img src="img/siemens-logo.png" alt="#"></a>
+            </div><!-- logo -->  
+            <div class="newPart">
+                <a href="index.html"><button type="button" class="btn btn-labeled btn-default">
+                <span class="btn-label-subaction"><i class="glyphicon glyphicon-plus"></i></span> Find Part</button></a>
+            </div><!-- newPart --> 
+        </div> <!-- header -->
+
+
+        <div class="container">
+
+           <div class="panel panel-primary">
+            <div class="panel-heading">Workorder Information :</div>
+             <div class="panel-body">
+              <div align="right"><a href='#'><span class='glyphicon glyphicon-tasks'></span> &nbsp Edit ! </a></div>
+              <div class="">
+                <a href="#">Add item photo</a>
+              </div><!-- item -->
+               <div class="">
+                <a href="#">Add drawing photo</a> 
+              </div><!-- item -->  
+              <div class="inputs-container">
+              <label>Availability :</label><select class="selectpicker">
+              <option>Yes</option>
+              <option>No</option>
+              <option>Missing</option>
+</select>
+
+              <br>
+              <br>
+              <label>Desc :</label><input type='text' class='form-control'  value=''  >
+              <label>Part Number : </label><input type='text' class='form-control'  value='' > 
+              <label>Qty_per : </label><input type='text' class='form-control'  value=''>
+              <label>Section : </label><input type='text' class='form-control'  value=''>
+              <label>Row :</label><input type='text' class='form-control'  value=''>  
+              <button type='text' class='panel-primary'>Save</button>
+              </div><!-- inputs-container  -->
+            </div>
+           </div>
+        </div>
+</div><!-- container -->
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
